@@ -1,0 +1,28 @@
+<% include partials/header.ejs %>
+    <div class="jumbotron">
+        <h1><a href="#">Michnaro</a></h1>
+    </div>
+    <div class="container">
+        <form class="form-group" action="/api" method="POST">
+            <div>
+                <label for="firstName" >First Name</label>
+                <input id="firstName" type="text" class="form-control form-width" name="firstName" required placeholder="John">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input id="lastName" type="text" class="form-control form-width" name="lastName" required placeholder="Doe">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" class="form-control form-width" name="email" required placeholder="john.doe@example.com">
+            </div>
+            <br/>
+            <button id="mbtn" class="btn btn-danger" type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="container">
+        <ul id="result" class="list-group">
+        </ul>
+    </div>
+
+<% include partials/footer.ejs %>

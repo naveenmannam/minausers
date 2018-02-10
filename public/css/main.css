@@ -1,0 +1,27 @@
+.form-width {
+    width: 300px;
+}
+h1:nth-child(1) {
+    text-align: center;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background-blend-mode: normal;
+    background-color: transparent;
+    border: 0px none rgb(0, 0, 0);
+    box-shadow: none;
+    padding-left: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.jumbotron h1>a {
+    text-decoration: none;
+}
+
+.jumbotron h1>a:visited {
+    text-decoration: none;
+}
+
+.jumbotron h1>a:hover {
+    text-decoration: none;
+}
